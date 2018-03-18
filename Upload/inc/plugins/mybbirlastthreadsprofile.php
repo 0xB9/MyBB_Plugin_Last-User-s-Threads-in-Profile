@@ -63,7 +63,10 @@ function mybbirlastthreadsprofile_deactivate(){
 
 function mybbirlastthreadsprofile()
 {
-	global $db, $mybb, $memprofile, $theme, $lang, $mybbirlastthreadsprofile;
+	global $db, $mybb, $memprofile, $theme, $lang, $mybbirlastthreadsprofile, $lang;
+
+    $lang->load("mybbirlastthreadsprofile");
+    
 	$threadlimit = 10;
 	$query = $db->query("
 		SELECT t.*, t.subject AS threadsubject, u.username, u.usergroup, u.displaygroup, i.*, i.name AS iconname,
@@ -121,7 +124,7 @@ function mybbirlastthreadsprofile()
 			<td class=\"trow2\"><a href=\"$threadlink\" title=\"$threads[threadsubject]\">$threadsthreadsubject</a></td>
 			<td class=\"trow1\" align=\"center\">$replies</td>
 			<td class=\"trow2\" align=\"center\">$views</td>
-			<td class=\"trow1\"><span class=\"smalltext\">$lastpostdate $lastposttime<br />By: $lastposter</span></td>
+			<td class=\"trow1\"><span class=\"smalltext\">$lastpostdate $lastposttime<br />".$lang->mybbirlastthreadsprofile_lastthread_By.": $lastposter</span></td>
 	</tr>";
 
 	}

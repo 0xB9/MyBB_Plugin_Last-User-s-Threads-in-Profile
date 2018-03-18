@@ -20,4 +20,6 @@ $l['mybbirlastthreadsprofile_lastthread_replies'] = 'risposte';
 $l['mybbirlastthreadsprofile_lastthread_views'] = 'Visualizzazioni';
 $l['mybbirlastthreadsprofile_lastthread_last_post'] = 'Ultimo messaggio';
 
+$l['mybbirlastthreadsprofile_lastthread_By'] = "Di";
+
 ?>

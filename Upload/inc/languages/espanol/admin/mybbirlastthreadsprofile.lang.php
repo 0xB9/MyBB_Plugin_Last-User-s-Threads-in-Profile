@@ -14,8 +14,8 @@
 
 // mybbirlastthreadsprofile_plugin_info
 
-$l['mybbirlastthreadsprofile_Name'] = 'Last User\'s Threads in Profile';
-$l['mybbirlastthreadsprofile_Desc'] = 'Display last threads in user profile.';
+$l['mybbirlastthreadsprofile_Name'] = 'Últimos subprocesos del usuario en el perfil';
+$l['mybbirlastthreadsprofile_Desc'] = 'Mostrar los últimos hilos en el perfil del usuario.';
 $l['mybbirlastthreadsprofile_Web'] = 'http://community.mybb.com/user-6029.html';
 $l['mybbirlastthreadsprofile_Auth'] = 'AliReza_Tofighi & updated by Vintagedaddyo';
 $l['mybbirlastthreadsprofile_AuthSite'] = 'http://community.mybb.com/user-6029.html';

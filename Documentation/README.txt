@@ -11,3 +11,13 @@ Updated to version 1.1 for MyBB 1.8.x usage by: Vintagedaddyo
 - added language files and further plugin localization
 - fixed that styling to work with 1.8 as it was showing first and last rounded
 - added license and readme
+
+Updated to version 1.2
+
+Further localization support
+
+- english
+- englishgb
+- espanol
+- french
+- italiano

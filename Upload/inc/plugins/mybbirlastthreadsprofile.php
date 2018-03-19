@@ -63,7 +63,7 @@ function mybbirlastthreadsprofile_deactivate(){
 
 function mybbirlastthreadsprofile()
 {
-	global $db, $mybb, $memprofile, $theme, $lang, $mybbirlastthreadsprofile, $lang;
+	global $db, $mybb, $memprofile, $theme, $lang, $mybbirlastthreadsprofile;
 
     $lang->load("mybbirlastthreadsprofile");
     

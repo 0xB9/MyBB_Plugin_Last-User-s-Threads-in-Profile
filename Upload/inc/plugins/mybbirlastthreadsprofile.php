@@ -92,7 +92,7 @@ function mybbirlastthreadsprofile()
 			$icon = "&nbsp;";
 		}
 
-        $threads['threadsubject'] = htmlspecialchars_uni($threads['threadsubject'])
+        $threads['threadsubject'] = htmlspecialchars_uni($threads['threadsubject']);
 
 		if(strlen($threads['threadsubject']) > "40")
 		{
